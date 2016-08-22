@@ -1,0 +1,9 @@
+.DS_Store
+.idea/
+
+/vendor/
+/node_modules/
+/.etchosts.swp
+    database_name: reshvideo
+    database_user: reshvideo
+    database_password: jtypsXVxiuIwFR

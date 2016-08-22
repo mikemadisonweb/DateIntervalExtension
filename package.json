@@ -1,0 +1,24 @@
+{
+  "name": "date-interval-twig-extension",
+  "version": "1.0.0",
+  "description": "Twig date interval extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemadisonweb/DateIntervalExtension.git"
+  },
+  "author": "Mikhail Bakulin <m.bakulin@informika.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikemadisonweb/DateIntervalExtension/issues"
+  },
+  "homepage": "https://github.com/mikemadisonweb/DateIntervalExtension#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-phpunit": "^0.16.0"
+  }
+}
