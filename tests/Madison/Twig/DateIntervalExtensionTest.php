@@ -59,6 +59,7 @@ class DateIntervalExtensionTest extends \PHPUnit_Framework_TestCase {
     public function provider()
     {
         return [
+            []
         ];
     }
 }
