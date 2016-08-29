@@ -59,7 +59,7 @@ class DateIntervalExtensionTest extends \PHPUnit_Framework_TestCase {
     public function provider()
     {
         return [
-            []
+            ['28.06.1986', '27 years', '{{ input|age }}'],
         ];
     }
 }

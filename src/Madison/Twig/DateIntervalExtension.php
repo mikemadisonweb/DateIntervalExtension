@@ -84,16 +84,27 @@ class DateIntervalExtension extends \Twig_Extension
      */
     public function getInterval($dateFrom, $dateTill = null, $max = 3, $separator = ' ')
     {
-        $this->convertStringToDate($dateFrom);
+        $dateFrom = $this->convertStringToDate($dateFrom);
         if(is_null($dateTill)) {
             // Set till now then
             $dateTill = new \DateTime();
         } else {
-            $this->convertStringToDate($dateTill);
+            $dateTill = $this->convertStringToDate($dateTill);
         }
 
         return $this->getIntervalString($dateFrom, $dateTill, $max, $separator);
     }
+
+    /**
+     * Get a person age shortcut
+     * @param $birthDate
+     * @return string
+     */
+    public function getAge($birthDate)
+    {
+        return $this->getInterval($birthDate, null, 1);
+    }
+
 
     /**
      * Get string representation of date
